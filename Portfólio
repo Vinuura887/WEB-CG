@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinuura's portfolio</title>
+    <link rel="shortcut icon" href="https://cdnb.artstation.com/p/assets/images/images/068/213/881/large/vinuura_3d-c3c.jpg?1697246818" type="image/x-icon">
+</head>
+<body>
+    <h1>Coisas que eu fiz</h1>
+    <h2>Projetos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt hic soluta, repudiandae, omnis distinctio perspiciatis harum, praesentium illo eveniet quod quae! Unde dolores eos error consequatur. Fugiat, nam cupiditate?</p>
+    <img src="https://cdnb.artstation.com/p/assets/images/images/068/213/893/large/vinuura_3d-b1c.jpg?1697246885" alt="menina estilizada com equipamento de combate">
+    <a href="https://www.artstation.com/vinuura_3d">Ir para o Artstation</a>
+</body>
+</html>
