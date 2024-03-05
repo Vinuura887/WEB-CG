@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.pfooter {
+    color: brown;
+}
+
+#img {
+    width: 480px;
+}
+
+.navegation {
+    display: block;
+}
