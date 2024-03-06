@@ -1,5 +1,9 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 body {
-    background-color: black;
+    background-color: #272727;
     color: aliceblue;
 }
 
@@ -12,9 +16,59 @@ h1 {
 }
 
 #img {
-    width: 480px;
+    display: flex;
+}
+
+.img {
+    width: 240px;
 }
 
 .navegation {
     display: block;
+    color: rgb(133, 133, 133);
+}
+
+#cabe {
+    display: flex;
+}
+
+#form {
+    display: flex;
+}
+
+#final {
+    display: flex;
+}
+
+#legend {
+    font-size: 28.8px;
+}
+
+.label {
+    color: rgb(133, 133, 133);
+}
+
+i {
+    color: rgb(133, 133, 133);
+    display: inline;
+    font-size: 28px;
+}
+
+header {
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    margin-left: 3.2px;
+    margin-right: 3.2px;
+}
+
+.social{
+    width: 512.8px;
+    height: 65px;
+}
+
+fieldset {
+    width: 500px;
 }
