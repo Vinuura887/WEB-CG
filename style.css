@@ -7,6 +7,10 @@ body {
     color: aliceblue;
 }
 
+header {
+    background-color: #1f1f1f;
+}
+
 h1 {
     color: aliceblue;
 }
@@ -21,15 +25,12 @@ h1 {
 
 .img {
     width: 240px;
-}
-
-.navegation {
-    display: block;
-    color: rgb(133, 133, 133);
+    margin-right: 10px;
 }
 
 #cabe {
     display: flex;
+    color: rgb(133, 133, 133);
 }
 
 #form {
@@ -71,4 +72,89 @@ li {
 
 fieldset {
     width: 500px;
+}
+
+#n-e {
+    display: flex;
+}
+
+#message {
+    display: block;
+}
+
+#con {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+#button {
+    width: 100%;
+}
+
+#nome {
+    display: block;
+    width: 95%;
+}
+
+#email {
+    display: block;
+    width: 95%;
+}
+
+#nomeinput {
+    width: 95%;
+    display: block;
+}
+
+#emailinput {
+    width: 95%;
+    display: block;
+}
+
+#messageinput {
+    width: 98%;
+}
+
+a {
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#icon {
+    height: 80px;
+    margin-left: 100px;
+    margin-right: 450px;
+}
+
+.navegation {
+    color: rgb(133, 133, 133);
+    display: flex;
+    margin-right: 336px;
+}
+
+#socialtop {
+    margin-right: 100px;
+}
+
+#socialbot {
+
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+#prima {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer {
+    margin-left: 100px;
+    margin-right: 100px;    
 }
