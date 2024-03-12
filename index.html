@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinuura's Portfolio</title>
-    <link rel="shortcut icon" href="https://cdnb.artstation.com/p/assets/images/images/068/213/881/large/vinuura_3d-c3c.jpg?1697246818" type="image/x-icon">
+    <link rel="shortcut icon" href="Captura de tela 2024-03-12 110419.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/a82f98e391.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,34 +15,37 @@
 <body>
     <header>
         <div id="cabe">
-        <nav>
-            <ul class="navegation">
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                <li>
-                    <a href="#">Experiência</a>
-                </li>
-                <li>
-                    <a href="#">Desenvolvimento</a>
-                </li>
-                <li>
-                    <a href="#">3D</a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="social">
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-square-envelope"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-artstation"></i></a></li>
-            </ul>
-        </nav>
+            <nav>
+                <img id="icon" src="Captura de tela 2024-03-12 110419.png" alt="icon">
+            </nav>
+            <nav>
+                <ul class="navegation">
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Experiência</a>
+                    </li>
+                    <li>
+                        <a href="#">Desenvolvimento</a>
+                    </li>
+                    <li>
+                        <a href="#">3D</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="socialtop" class="social">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-square-envelope"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-artstation"></i></a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <div>
+    <div id="prima">
         <h1>Coisas que eu fiz</h1>
         <h2>Projetos</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt hic soluta, repudiandae, omnis distinctio perspiciatis harum, praesentium illo eveniet quod quae! Unde dolores eos error consequatur. Fugiat, nam cupiditate?</p>
@@ -61,29 +64,29 @@
                 <form action="">
                     <fieldset>
                         <legend id="legend">Fale comigo.</legend>
-                        <div class="label">
-                            <label for="nome">Seu nome:</label>
-                            <input type="text" name="nome" id="nome" placeholder="Ex: Vinícius Moraes">
+                        <div id="n-e">
+                            <div class="label" id="nome">
+                                <label for="nome">Seu nome:</label>
+                                <input type="text" name="nome" id="nomeinput" placeholder="Ex: Vinícius Moraes">
+                            </div>
+                            <div class="label" id="email">
+                                <label for="email">Seu E-mail:</label>
+                                <input type="email" name="email" id="emailinput" placeholder="Ex: viniciusmo887@gmail.com">
+                            </div>
                         </div>
-                        <div class="label">
-                            <label for="email">Seu E-mail:</label>
-                            <input type="email" name="email" id="email" placeholder="Ex: viniciusmo887@gmail.com">
-                        </div>
-                        <div class="label">
+                        <div class="label" id="message">
                             <label for="message">Sua mensagem:</label>
-                            <input type="text" name="message" id="message" placeholder="Insira sua mensagem aqui.">
+                            <input type="text" name="message" id="messageinput" placeholder="Insira sua mensagem aqui.">
                         </div>
                         <p></p>
-                        <div>
-                            <input type="button" value="Enviar">
-                        </div>
+                            <input id="button" type="button" value="Enviar">
                     </fieldset>
                 </form>
             </div>
             <div id="con">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi ullam accusamus dignissimos accusantium est ut dolor reiciendis consequatur. Explicabo quaerat exercitationem laboriosam tempore doloremque reprehenderit officia dolorum assumenda quis tenetur?</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea consequatur distinctio autem. Repellat, dolore itaque neque repellendus cumque at qui? Eum itaque esse impedit nihil quaerat necessitatibus similique laudantium. Numquam!</p>
-                <nav class="social">
+                <nav id="socialbot" class="social">
                     <ul>
                         <li><a href="#"><i class="fa-solid fa-square-envelope"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
