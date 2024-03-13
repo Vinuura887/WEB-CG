@@ -1,5 +1,7 @@
 * {
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -9,28 +11,88 @@ body {
 
 header {
     background-color: #1f1f1f;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
 }
 
 h1 {
     color: aliceblue;
 }
 
-.pfooter {
-    color: brown;
+
+i {
+    color: rgb(133, 133, 133);
+    display: inline;
+    font-size: 28px;
+}
+
+li {
+    display: inline;
+    margin-left: 3.2px;
+    margin-right: 3.2px;
+}
+
+
+fieldset {
+    width: 850px;
+    border: none;
+}
+
+a {
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+main {
+    margin-top: 50px;
+}
+
+footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;    
+}
+
+/* #risco {
+    width: 1px;
+    height: 100vh;
+    background-color: red;
+    position: absolute;
+    margin-left: 50%;
+} */
+
+#coisas {
+    margin-bottom: 10px;
+}
+
+#projetos {
+    margin-bottom: 20px;
+}
+
+#brief {
+
 }
 
 #img {
     display: flex;
-}
-
-.img {
-    width: 240px;
-    margin-right: 10px;
+    margin-top: 25px;
+    margin-left: 20.99%;
 }
 
 #cabe {
     display: flex;
     color: rgb(133, 133, 133);
+    justify-content: space-between;
 }
 
 #form {
@@ -45,51 +107,25 @@ h1 {
     font-size: 28.8px;
 }
 
-.label {
-    color: rgb(133, 133, 133);
-}
-
-i {
-    color: rgb(133, 133, 133);
-    display: inline;
-    font-size: 28px;
-}
-
-header {
-    font-size: 20px;
-}
-
-li {
-    display: inline;
-    margin-left: 3.2px;
-    margin-right: 3.2px;
-}
-
-.social{
-    width: 512.8px;
-    height: 65px;
-}
-
-fieldset {
-    width: 500px;
-}
-
 #n-e {
     display: flex;
 }
 
 #message {
     display: block;
+    margin-top: 20px;
 }
 
 #con {
+    display: inline;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 1000px;
 }
 
 #button {
-    width: 100%;
+    width: 98%;
+    margin-top: 40px;
 }
 
 #nome {
@@ -116,37 +152,18 @@ fieldset {
     width: 98%;
 }
 
-a {
-    color: rgb(133, 133, 133);
-    text-decoration: none;
-    margin-left: 20px;
-}
-
 #icon {
     height: 80px;
-    margin-left: 100px;
-    margin-right: 450px;
-}
-
-.navegation {
-    color: rgb(133, 133, 133);
-    display: flex;
-    margin-right: 336px;
+    margin-top: 5px;
 }
 
 #socialtop {
-    margin-right: 100px;
+    margin-top: 25px;
+    width: auto;
 }
 
 #socialbot {
-
-}
-
-input {
-    background-color: transparent;
-    color: white;
-    border: none;
-    border-bottom: 1px solid;
+    margin-top: 20px;
 }
 
 #prima {
@@ -154,7 +171,38 @@ input {
     margin-right: 100px;
 }
 
-footer {
-    margin-left: 100px;
-    margin-right: 100px;    
+#con1 {
+    margin-top: 20px;
+}
+
+#con2 {
+    margin-top: 20px;
+}
+
+.img {
+    width: 240px;
+    margin-right: 10px;
+}
+
+.pfooter {
+    color: brown;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.label {
+    color: rgb(133, 133, 133);
+    margin-top: 20px;
+}
+
+.social{
+    width: 512.8px;
+    height: 65px;
+}
+
+.navegation {
+    color: rgb(133, 133, 133);
+    display: flex;
+    margin-top: 25px;
+    margin-left: 210px;
 }
