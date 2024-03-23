@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #272727;
     color: aliceblue;
@@ -11,13 +15,17 @@ body {
 
 header {
     background-color: #1f1f1f;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 
 h1 {
     color: aliceblue;
+    font-size: 2rem;
 }
 
 
@@ -35,7 +43,7 @@ li {
 
 
 fieldset {
-    width: 850px;
+    width: 752px;
     border: none;
 }
 
@@ -54,12 +62,14 @@ input {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 140px;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 
 footer {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
     margin-top: 50px;    
 }
 
@@ -75,18 +85,17 @@ footer {
     margin-bottom: 10px;
 }
 
+#modelador {
+    margin-bottom: 10px;
+}
+
 #projetos {
     margin-bottom: 20px;
+    width: 2000px;
 }
 
 #brief {
-
-}
-
-#img {
-    display: flex;
-    margin-top: 25px;
-    margin-left: 20.99%;
+    width: 2000px;
 }
 
 #cabe {
@@ -118,8 +127,7 @@ footer {
 
 #con {
     display: inline;
-    margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 0px;
     width: 1000px;
 }
 
@@ -159,7 +167,8 @@ footer {
 
 #socialtop {
     margin-top: 25px;
-    width: auto;
+    width: 512.8;
+    margin-right: 200px;
 }
 
 #socialbot {
@@ -167,8 +176,7 @@ footer {
 }
 
 #prima {
-    margin-left: 100px;
-    margin-right: 100px;
+    display: flex;
 }
 
 #con1 {
@@ -179,13 +187,146 @@ footer {
     margin-top: 20px;
 }
 
+#sobre {
+    border-bottom: solid 1px white;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+#personagens {
+    border-bottom: solid 1px white;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+#fanarts {
+    border-bottom: solid 1px white;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+#animacoes {
+    border-bottom: solid 1px white;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+#peor {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#fan {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#anim {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#lore {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#ldesc {
+    margin-top: 100px;
+}
+
+#sharon {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#sdesc {
+    margin-top: 100px;
+}
+
+#marina {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#mdesc {
+    margin-top: 100px;
+}
+
+#eddie {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#edesc {
+    margin-top: 100px;
+}
+
+#sinon {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#sidesc {
+    margin-top: 100px;
+}
+
+#spider {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#spdesc {
+    margin-top: 100px;
+}
+
+#robot {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#rdesc {
+    margin-top: 100px;
+}
+
+#arm {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#adesc {
+    margin-top: 100px;
+}
+
+#sabre {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#sadesc {
+    margin-top: 100px;
+}
+
 .img {
-    width: 240px;
-    margin-right: 10px;
+    width: 480px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+.video {
+    width: 480px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 100px;
 }
 
 .pfooter {
-    color: brown;
+    color: rgb(133, 133, 133);
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -204,5 +345,5 @@ footer {
     color: rgb(133, 133, 133);
     display: flex;
     margin-top: 25px;
-    margin-left: 210px;
+    margin-left: 150px;
 }
