@@ -2,6 +2,7 @@
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
+    width: 1024;
 }
 
 html {
@@ -11,16 +12,6 @@ html {
 body {
     background-color: #272727;
     color: aliceblue;
-}
-
-header {
-    background-color: #1f1f1f;
-    padding-left: 200px;
-    padding-right: 200px;
-    font-size: 20px;
-    position: fixed;
-    top: 0;
-    width: 100vw;
 }
 
 h1 {
@@ -39,13 +30,9 @@ li {
     display: inline;
     margin-left: 3.2px;
     margin-right: 3.2px;
+    justify-content: space-between;
 }
 
-
-fieldset {
-    width: 752px;
-    border: none;
-}
 
 a {
     color: rgb(133, 133, 133);
@@ -61,25 +48,50 @@ input {
     border-bottom: 1px solid;
 }
 
+/* Header */
+
+header {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1f1f1f;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+#cabe {
+    display: flex;
+    color: rgb(133, 133, 133);
+    justify-content: space-between;
+}
+
+#icon {
+    height: 80px;
+    margin-top: 5px;
+}
+
+#socialtop {
+    margin-top: 25px;
+    width: 512.8px;
+    margin-right: 200px;
+    height: 65px;
+}
+
+.navegation {
+    color: rgb(133, 133, 133);
+    display: flex;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+/* Main */
+
 main {
     margin-top: 140px;
     padding-right: 200px;
     padding-left: 200px;
 }
-
-footer {
-    padding-left: 200px;
-    padding-right: 200px;
-    margin-top: 50px;    
-}
-
-/* #risco {
-    width: 1px;
-    height: 100vh;
-    background-color: red;
-    position: absolute;
-    margin-left: 50%;
-} */
 
 #coisas {
     margin-bottom: 10px;
@@ -98,93 +110,9 @@ footer {
     width: 2000px;
 }
 
-#cabe {
-    display: flex;
-    color: rgb(133, 133, 133);
-    justify-content: space-between;
-}
-
-#form {
-    display: flex;
-}
-
-#final {
-    display: flex;
-}
-
-#legend {
-    font-size: 28.8px;
-}
-
-#n-e {
-    display: flex;
-}
-
-#message {
-    display: block;
-    margin-top: 20px;
-}
-
-#con {
-    display: inline;
-    margin-top: 0px;
-    width: 1000px;
-}
-
-#button {
-    width: 98%;
-    margin-top: 40px;
-}
-
-#nome {
-    display: block;
-    width: 95%;
-}
-
-#email {
-    display: block;
-    width: 95%;
-}
-
-#nomeinput {
-    width: 95%;
-    display: block;
-}
-
-#emailinput {
-    width: 95%;
-    display: block;
-}
-
-#messageinput {
-    width: 98%;
-}
-
-#icon {
-    height: 80px;
-    margin-top: 5px;
-}
-
-#socialtop {
-    margin-top: 25px;
-    width: 512.8;
-    margin-right: 200px;
-}
-
-#socialbot {
-    margin-top: 20px;
-}
-
 #prima {
     display: flex;
-}
-
-#con1 {
-    margin-top: 20px;
-}
-
-#con2 {
-    margin-top: 20px;
+    width: auto;
 }
 
 #sobre {
@@ -325,6 +253,89 @@ footer {
     border-radius: 100px;
 }
 
+/* Footer */
+
+footer {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;    
+}
+
+#form {
+    display: flex;
+}
+
+fieldset {
+    width: 752px;
+    border: none;
+}
+
+#final {
+    display: flex;
+}
+
+#legend {
+    font-size: 28.8px;
+}
+
+#n-e {
+    display: flex;
+}
+
+#message {
+    display: block;
+    margin-top: 20px;
+}
+
+#con {
+    display: inline;
+    margin-top: 0px;
+    width: 1000px;
+}
+
+#button {
+    width: 98%;
+    margin-top: 40px;
+}
+
+#nome {
+    display: block;
+    width: 95%;
+}
+
+#email {
+    display: block;
+    width: 95%;
+}
+
+#nomeinput {
+    width: 95%;
+    display: block;
+}
+
+#emailinput {
+    width: 95%;
+    display: block;
+}
+
+#messageinput {
+    width: 98%;
+}
+
+#socialbot {
+    margin-top: 20px;
+    width: 512.8px;
+    height: 65px;
+}
+
+#con1 {
+    margin-top: 20px;
+}
+
+#con2 {
+    margin-top: 20px;
+}
+
 .pfooter {
     color: rgb(133, 133, 133);
     margin-top: 30px;
@@ -334,16 +345,4 @@ footer {
 .label {
     color: rgb(133, 133, 133);
     margin-top: 20px;
-}
-
-.social{
-    width: 512.8px;
-    height: 65px;
-}
-
-.navegation {
-    color: rgb(133, 133, 133);
-    display: flex;
-    margin-top: 25px;
-    margin-left: 150px;
 }
