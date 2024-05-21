@@ -2,7 +2,6 @@
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    width: 1024;
 }
 
 html {
@@ -28,8 +27,8 @@ i {
 
 li {
     display: inline;
-    margin-left: 3.2px;
-    margin-right: 3.2px;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
     justify-content: space-between;
 }
 
@@ -40,74 +39,64 @@ a {
     margin-left: 20px;
 }
 
-
-input {
-    background-color: transparent;
-    color: white;
-    border: none;
-    border-bottom: 1px solid;
-}
-
 /* Header */
 
 header {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #1f1f1f;
     font-size: 20px;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 80%;
 }
 
 #cabe {
     display: flex;
     color: rgb(133, 133, 133);
     justify-content: space-between;
+    justify-items: center;
 }
 
 #icon {
     height: 80px;
-    margin-top: 5px;
+    margin-top: 5%;
 }
 
 #socialtop {
-    margin-top: 25px;
-    width: 512.8px;
-    margin-right: 200px;
-    height: 65px;
+    margin-top: 1.5%;
+    padding-right: 0.5%;
 }
 
 .navegation {
     color: rgb(133, 133, 133);
     display: flex;
-    margin-top: 25px;
-    margin-left: 150px;
+    margin-top: 4%;
 }
 
 /* Main */
 
 main {
-    margin-top: 140px;
-    padding-right: 200px;
-    padding-left: 200px;
+    margin-top: 9%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 #coisas {
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 #modelador {
-    margin-bottom: 10px;
+    margin-bottom:1%;
 }
 
 #projetos {
-    margin-bottom: 20px;
-    width: 2000px;
+    margin-bottom: 2%;
+    width: 100%;
 }
 
 #brief {
-    width: 2000px;
+    width: 100%;
 }
 
 #prima {
@@ -117,161 +106,182 @@ main {
 
 #sobre {
     border-bottom: solid 1px white;
-    padding-bottom: 50px;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 3%;
+    padding-top: 8%;
+    margin-bottom: 2.5%;
 }
 
 #personagens {
     border-bottom: solid 1px white;
-    padding-bottom: 50px;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 2.5%;
+    padding-top: 8%;
+    margin-bottom: 2.5%;
 }
 
 #fanarts {
     border-bottom: solid 1px white;
-    padding-bottom: 50px;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 2.5%;
+    padding-top: 8%;
+    margin-bottom: 2.5%;
 }
 
 #animacoes {
     border-bottom: solid 1px white;
-    padding-bottom: 50px;
-    padding-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 2.5%;
+    padding-top: 8%;
+    margin-bottom: 2.5%;
 }
 
 #peor {
-    margin-bottom: 20px;
+    margin-bottom: 1.5%;
     text-align: center;
 }
 
 #fan {
-    margin-bottom: 20px;
+    margin-bottom: 1.5%;
     text-align: center;
 }
 
 #anim {
-    margin-bottom: 20px;
+    margin-bottom: 1.5%;
     text-align: center;
 }
 
 #lore {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
+
 }
 
 #ldesc {
-    margin-top: 100px;
+    align-content: center;
+    text-align: end;
 }
 
 #sharon {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
 }
 
 #sdesc {
-    margin-top: 100px;
+    align-content: center;
 }
 
 #marina {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
 }
 
 #mdesc {
-    margin-top: 100px;
+    align-content: center;
+    text-align: end;
 }
 
 #eddie {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
 }
 
 #edesc {
-    margin-top: 100px;
+    align-content: center;
+    text-align: end;
 }
 
 #sinon {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
 }
 
 #sidesc {
-    margin-top: 100px;
+    align-content: center;
 }
 
 #spider {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
 }
 
 #spdesc {
-    margin-top: 100px;
+    align-content: center;
+    text-align: end;
 }
 
 #robot {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
 }
 
 #rdesc {
-    margin-top: 100px;
+    align-content: center;
+    text-align: end;
 }
 
 #arm {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
 }
 
 #adesc {
-    margin-top: 100px;
+    align-content: center;
 }
 
 #sabre {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 1%;
 }
 
 #sadesc {
-    margin-top: 100px;
+    align-content: center;
+    text-align: end;
 }
 
 .img {
     width: 480px;
     margin-left: 20px;
     margin-right: 20px;
-    border-radius: 100px;
+    border-radius: 20%;
 }
 
 .video {
     width: 480px;
     margin-left: 20px;
     margin-right: 20px;
-    border-radius: 100px;
+    border-radius: 20%;
 }
 
 /* Footer */
 
 footer {
-    padding-left: 200px;
-    padding-right: 200px;
-    margin-top: 50px;    
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%; 
 }
 
 #form {
     display: flex;
+    width: 50%;
+}
+
+form {
+    width: 90%;
 }
 
 fieldset {
-    width: 752px;
+    width: 100%;
     border: none;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid;
 }
 
 #final {
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 #legend {
@@ -284,65 +294,59 @@ fieldset {
 
 #message {
     display: block;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 #con {
     display: inline;
-    margin-top: 0px;
-    width: 1000px;
+    width: 50%;
 }
 
 #button {
-    width: 98%;
-    margin-top: 40px;
+    width: 100%;
+    margin-top: 5%;
 }
 
 #nome {
     display: block;
-    width: 95%;
+    width: 100%;
 }
 
 #email {
     display: block;
-    width: 95%;
+    width: 100%;
 }
 
 #nomeinput {
-    width: 95%;
+    width: 100%;
     display: block;
 }
 
 #emailinput {
-    width: 95%;
+    width: 100%;
     display: block;
 }
 
 #messageinput {
-    width: 98%;
-}
-
-#socialbot {
-    margin-top: 20px;
-    width: 512.8px;
-    height: 65px;
+    width: 100%;
 }
 
 #con1 {
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 #con2 {
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .pfooter {
     color: rgb(133, 133, 133);
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .label {
     color: rgb(133, 133, 133);
-    margin-top: 20px;
+    margin-top: 5%;
 }
+
