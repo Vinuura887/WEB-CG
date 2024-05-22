@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 23px;
 }
 
 body {
@@ -27,8 +27,6 @@ i {
 
 li {
     display: inline;
-    margin-left: 0.1%;
-    margin-right: 0.1%;
     justify-content: space-between;
 }
 
@@ -56,22 +54,22 @@ header {
     color: rgb(133, 133, 133);
     justify-content: space-between;
     justify-items: center;
+    height: 80px;
 }
 
 #icon {
     height: 80px;
-    margin-top: 5%;
 }
 
 #socialtop {
-    margin-top: 1.5%;
     padding-right: 0.5%;
+    align-content: center;
 }
 
 .navegation {
     color: rgb(133, 133, 133);
     display: flex;
-    margin-top: 4%;
+    align-items: center;
 }
 
 /* Main */
@@ -87,16 +85,18 @@ main {
 }
 
 #modelador {
-    margin-bottom:1%;
+    margin-bottom: 1%;
 }
 
 #projetos {
     margin-bottom: 2%;
+    padding: 1%;
     width: 100%;
 }
 
 #brief {
     width: 100%;
+    padding: 1%;
 }
 
 #prima {
@@ -350,3 +350,237 @@ input {
     margin-top: 5%;
 }
 
+/* Media Queries */
+
+@media only screen and (max-width: 1440px) {
+
+    html {
+            font-size: 16px;
+        }
+
+    /* Header */
+
+        header {
+            font-size: 1.1rem;
+            height: 4.5rem;
+        }
+        
+
+        i {
+            font-size: 1.5rem;
+        }
+
+        #cabe {
+            height: 4.5rem;
+        }
+
+        #icon {
+            height: 4.5rem;
+        }
+    
+    /* Main */
+        
+        .img {
+            width: 360px;
+            margin-left: 0.9rem;
+            margin-right: 0.9rem;
+            border-radius: 20%;
+        }
+        
+        .video {
+            width: 360px;
+            margin-left: 0.9rem;
+            margin-right: 0.9rem;
+            border-radius: 20%;
+        }
+
+    }
+
+@media only screen and (max-width: 1040px) {
+
+    html {
+        font-size: 15px;
+    }
+
+        /* Header */
+
+            header {
+                font-size: 1rem;
+                height: 4rem;
+            }
+            
+
+            i {
+                font-size: 1.2rem;
+            }
+
+            #cabe {
+                height: 4rem;
+            }
+
+            #icon {
+                height: 4rem;
+            }
+
+            a {
+                margin-left: 0.7rem;
+            }
+}
+
+@media only screen and (max-width: 789px) {
+
+    html {
+        font-size: 12px;
+    }
+
+        /* Header */
+
+            header {
+                font-size: .95rem;
+                height: 4rem;
+            }
+            
+
+            i {
+                font-size: 1.3rem;
+            }
+
+            #cabe {
+                height: 4rem;
+            }
+
+            #icon {
+                height: 4rem;
+            }
+
+            a {
+                margin-left: 0.7rem;
+            }
+
+        /* Main */
+        
+            .img {
+                width: 240px;
+                margin-left: 0.9rem;
+                margin-right: 0.9rem;
+                border-radius: 20%;
+            }
+            
+            .video {
+                width: 240px;
+                margin-left: 0.9rem;
+                margin-right: 0.9rem;
+                border-radius: 20%;
+            }
+
+        /* Footer */
+        
+        #legend {
+            font-size: 18px;
+        }
+
+}
+
+@media only screen and (max-width: 618px) {
+    html {
+        font-size: 10px;
+    }
+
+        /* Header */
+
+            header {
+                font-size: .95rem;
+                height: 4rem;
+            }
+            
+
+            i {
+                font-size: 1.3rem;
+            }
+
+            #cabe {
+                height: 4rem;
+            }
+
+            #icon {
+                height: 4rem;
+            }
+
+            a {
+                margin-left: 0.7rem;
+            }
+
+        /* Main */
+        
+            .img {
+                width: 240px;
+                margin-left: 0.9rem;
+                margin-right: 0.9rem;
+                border-radius: 20%;
+            }
+            
+            .video {
+                width: 240px;
+                margin-left: 0.9rem;
+                margin-right: 0.9rem;
+                border-radius: 20%;
+            }
+
+        /* Footer */
+        
+        #legend {
+            font-size: 12px;
+        }
+}
+
+@media only screen and (max-width: 515px) {
+    html {
+        font-size: 8px;
+    }
+
+        /* Header */
+
+            header {
+                font-size: .95rem;
+                height: 4rem;
+            }
+            
+
+            i {
+                font-size: 1.3rem;
+            }
+
+            #cabe {
+                height: 4rem;
+            }
+
+            #icon {
+                height: 4rem;
+            }
+
+            a {
+                margin-left: 0.7rem;
+            }
+
+        /* Main */
+        
+            .img {
+                width: 140px;
+                margin-left: 0.9rem;
+                margin-right: 0.9rem;
+                border-radius: 20%;
+            }
+            
+            .video {
+                width: 140px;
+                margin-left: 0.9rem;
+                margin-right: 0.9rem;
+                border-radius: 20%;
+            }
+
+        /* Footer */
+
+        #legend {
+            font-size: 12px;
+        }
+}
