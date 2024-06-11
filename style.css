@@ -18,6 +18,11 @@ h1 {
     font-size: 2rem;
 }
 
+h2 {
+    color: aliceblue;
+    font-size: 2rem;
+}
+
 
 i {
     color: rgb(133, 133, 133);
@@ -75,7 +80,7 @@ header {
 /* Main */
 
 main {
-    margin-top: 9%;
+    padding-top: 2%;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -150,6 +155,7 @@ main {
 #lore {
     display: flex;
     margin-bottom: 1%;
+    justify-content: end;
 
 }
 
@@ -170,6 +176,7 @@ main {
 #marina {
     display: flex;
     margin-bottom: 1%;
+    justify-content: end;
 }
 
 #mdesc {
@@ -180,6 +187,7 @@ main {
 #eddie {
     display: flex;
     margin-bottom: 1%;
+    justify-content: end;
 }
 
 #edesc {
@@ -199,6 +207,7 @@ main {
 #spider {
     display: flex;
     margin-bottom: 1%;
+    justify-content: end;
 }
 
 #spdesc {
@@ -209,6 +218,7 @@ main {
 #robot {
     display: flex;
     margin-bottom: 1%;
+    justify-content: end;
 }
 
 #rdesc {
@@ -228,6 +238,7 @@ main {
 #sabre {
     display: flex;
     margin-bottom: 1%;
+    justify-content: end;
 }
 
 #sadesc {
@@ -292,7 +303,7 @@ input {
     display: flex;
 }
 
-#message {
+#menssagem {
     display: block;
     margin-top: 2%;
 }
@@ -300,11 +311,17 @@ input {
 #con {
     display: inline;
     width: 50%;
+    padding-top: 2%;
 }
 
 #button {
     width: 100%;
     margin-top: 5%;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: rgb(92, 92, 92);
 }
 
 #nome {
@@ -317,17 +334,17 @@ input {
     width: 100%;
 }
 
-#nomeinput {
+#fullName {
+    width: 95%;
+    display: block;
+}
+
+#email_id {
     width: 100%;
     display: block;
 }
 
-#emailinput {
-    width: 100%;
-    display: block;
-}
-
-#messageinput {
+#message {
     width: 100%;
 }
 
@@ -341,8 +358,9 @@ input {
 
 .pfooter {
     color: rgb(133, 133, 133);
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 2%;
+    text-align: center;
 }
 
 .label {
@@ -352,10 +370,11 @@ input {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1440px) {
+
+@media only screen and (max-width: 1856px) {
 
     html {
-            font-size: 16px;
+            font-size: 18px;
         }
 
     /* Header */
@@ -396,7 +415,7 @@ input {
 
     }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1164px) {
 
     html {
         font-size: 15px;
@@ -427,7 +446,7 @@ input {
             }
 }
 
-@media only screen and (max-width: 789px) {
+@media only screen and (max-width: 802px) {
 
     html {
         font-size: 12px;
@@ -481,7 +500,7 @@ input {
 
 }
 
-@media only screen and (max-width: 618px) {
+@media only screen and (max-width: 629px) {
     html {
         font-size: 10px;
     }
@@ -533,7 +552,7 @@ input {
         }
 }
 
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width: 524px) {
     html {
         font-size: 8px;
     }
@@ -601,7 +620,7 @@ input {
             
 
             i {
-                font-size: 1rem;
+                font-size: 1.4rem;
             }
 
             #cabe {
